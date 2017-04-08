@@ -133,7 +133,7 @@
             </li>
           </ul>
         </div>
-        <div class="skills col-sm-12 col-md-3">
+        <div class="skills-courses col-sm-12 col-md-3">
           <h3>НАВЫКИ</h3>
           <ul>
             <li>
@@ -169,16 +169,16 @@
               </div>
             </li>
           </ul>
-        </div>
-        <div class="courses col-sm-12 col-md-3 col-md-offset-9">
-          <h4>КУРСЫ</h4>
-          <div>
-            <h3>АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ</h3>
-            <p>Пространственная модель размещения виниров.</p>
-          </div>
-          <div>
-            <h3>DENTLINE</h3>
-            <p>Несъемное протезирование(современные тенденции)</p>
+          <div class="courses">
+            <h4>КУРСЫ</h4>
+            <div>
+              <h3>АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ</h3>
+              <p>Пространственная модель размещения виниров.</p>
+            </div>
+            <div>
+              <h3>DENTLINE</h3>
+              <p>Несъемное протезирование(современные тенденции)</p>
+            </div>
           </div>
         </div>
       </div>
@@ -187,17 +187,25 @@
 
   <script>
     $(document).ready(function(){
-      var width = document.documentElement.clientWidth;
       var parent = document.querySelector('.content'),
           lang = document.querySelector('.languages'),
-          skills = document.querySelector('.skills'),
+          skills = document.querySelector('.skills-courses'),
           science = document.querySelector('.science');
-      var mover = {
-        langUp: function(elem, target) {
-          parent.insertBefore(elem, target);
+
+      moveLang();
+      $(window).resize(moveLang);
+
+      function moveLang() {
+        if (document.documentElement.clientWidth > 768) {
+          parent.insertBefore(lang, science);
+          console.log('first rule')
+        } else {
+          console.log('second rule')
+          parent.insertBefore(lang, skills);
         }
+        console.log('Width: ' + document.documentElement.clientWidth)
       }
-    })
+    });
   </script>
 </body>
 </html>
