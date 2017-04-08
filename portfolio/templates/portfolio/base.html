@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +19,7 @@
     <div class="row">
       <header class="col-sm-12 col-md-12">
         <div class="col-sm-12 col-md-3">
-          <h1>Валерия <span>Мартын</span></h1>
+          <h1>{% trans 'Валерия' %} <span>{% trans 'Мартын' %}</span></h1>
         </div>
         <div class="col-sm-12 col-md-9">
           <div class="video">
@@ -32,5 +33,16 @@
       {% endblock %}
     </div>
   </div>
+  <form action="{% url 'set_language' %}" method="post">
+                  {% csrf_token %}
+                  <div class="form-group">
+                    <select name="language" onchange="javascript:form.submit()">
+                        <option value="en" {% if request.LANGUAGE_CODE == 'en' %}selected="selected"{% endif %}>English</option>
+                        <option value="ru" {% if request.LANGUAGE_CODE == 'ru' %}selected="selected"{% endif %}>Russian</option>
+                        <option value="uk" {% if request.LANGUAGE_CODE == 'uk' %}selected="selected"{% endif %}>Ukrainian</option>
+                        <option value="cs" {% if request.LANGUAGE_CODE == 'cs' %}selected="selected"{% endif %}>Czech</option>
+                    </select>
+                  </div>
+              </form>
 </body>
 </html>

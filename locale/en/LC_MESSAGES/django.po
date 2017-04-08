@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-09 02:10+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mysite/settings.py:111
+msgid "English"
+msgstr ""
+
+#: mysite/settings.py:112
+msgid "Russian"
+msgstr ""
+
+#: mysite/settings.py:113
+msgid "Ukrainian"
+msgstr ""
+
+#: mysite/settings.py:114
+msgid "Czech"
+msgstr ""
+
+#: portfolio/templates/portfolio/base.html:22
+msgid "Валерия"
+msgstr ""
+
+#: portfolio/templates/portfolio/base.html:22
+msgid "Мартын"
+msgstr ""
+
+#: portfolio/templates/portfolio/contacts.html:2
+msgid "КОНТАКТЫ"
+msgstr ""
+
+#: portfolio/templates/portfolio/contacts.html:4
+msgid "ТЕЛЕФОН"
+msgstr ""
+
+#: portfolio/templates/portfolio/contacts.html:5
+msgid "E-MAIL"
+msgstr ""
+
+#: portfolio/templates/portfolio/contacts.html:6
+msgid "ГОРОД"
+msgstr ""
+
+#: portfolio/templates/portfolio/education.html:2
+msgid "ОБРАЗОВАНИЕ"
+msgstr ""
+
+#: portfolio/templates/portfolio/education.html:5
+msgid "ДНЕПРОПЕТРОВСКАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ"
+msgstr ""
+
+#: portfolio/templates/portfolio/education.html:6
+msgid "Специалитет. Стоматологический. Стоматология"
+msgstr ""
+
+#: portfolio/templates/portfolio/education.html:14
+msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. ГОРЬКОГО"
+msgstr ""
+
+#: portfolio/templates/portfolio/education.html:15
+msgid "Специалист. Стоматологический. Стоматология"
+msgstr ""
+
+#: portfolio/templates/portfolio/experience.html:2
+msgid "ОПЫТ РАБОТЫ"
+msgstr ""
+
+#: portfolio/templates/portfolio/experience.html:5
+msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
+msgstr ""
+
+#: portfolio/templates/portfolio/experience.html:8
+msgid "Ведение медицинской документации"
+msgstr ""
+
+#: portfolio/templates/portfolio/experience.html:9
+msgid "Проведение профессиональной гигиены полости рта"
+msgstr ""
+
+#: portfolio/templates/portfolio/experience.html:10
+msgid "Ассистирование проведения стоматологических манипуляций"
+msgstr ""
+
+#: portfolio/templates/portfolio/languages.html:2
+msgid "ЯЗЫКИ"
+msgstr ""
+
+#: portfolio/templates/portfolio/science.html:2
+msgid "НАУЧНАЯ РАБОТА"
+msgstr ""
+
+#: portfolio/templates/portfolio/science.html:4
+msgid "СБОР СТАТИСТИКИ"
+msgstr ""
+
+#: portfolio/templates/portfolio/science.html:5
+msgid ""
+"Занималась сбором и обработкой данных для докторской диссертации Елены "
+"Борисовны Булиенко.\n"
+"    "
+msgstr ""
+
+#: portfolio/templates/portfolio/science.html:10
+#: portfolio/templates/portfolio/science.html:14
+msgid "ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК"
+msgstr ""
+
+#: portfolio/templates/portfolio/science.html:11
+msgid ""
+"Перевод статьи-исследования на тему \"Сочетанное применение апигеля и "
+"магнитотерапии при местном лечении генерализованного пародантита."
+msgstr ""
+
+#: portfolio/templates/portfolio/science.html:15
+msgid ""
+"Изменение биохимических показателей слюны при эксперементальном пародантите "
+"при применении апипрепарата."
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:2
+msgid "НАВЫКИ"
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:6
+msgid "Документооборот"
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:14
+msgid "Постановка диагноза"
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:22
+msgid "Проф. гигиена"
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:30
+msgid "Лечение кариеса"
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:38
+msgid "КУРСЫ"
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:40
+msgid "АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ"
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:41
+msgid "Пространственная модель размещения виниров."
+msgstr ""
+
+#: portfolio/templates/portfolio/skills_courses.html:45
+msgid "Несъемное протезирование(современные тенденции)"
+msgstr ""
