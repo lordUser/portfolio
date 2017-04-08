@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="{% static 'style.css' %}">
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
@@ -22,8 +26,8 @@
         </div>
       </header>
     </div>
-    <div class="row">
-        <div class="col-sm-12 col-md-9">
+    <div class="content row">
+        <div class="education col-sm-12 col-md-9">
           <h3>ОБРАЗОВАНИЕ</h3>
           <div>
             <div>
@@ -44,7 +48,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3">
+        <div class="contacts col-sm-12 col-md-3">
           <h3>КОНТАКТЫ</h3>
           <ul>
             <li><p><span>ТЕЛЕФОН:</span>+420 776 623 757</p></li>     
@@ -54,7 +58,7 @@
             <li><p><span>VK:</span>id179401877</p></li>     
           </ul>
         </div>
-        <div class="col-sm-12 col-md-9">
+        <div class="expirience col-sm-12 col-md-9">
           <h3>ОПЫТ РАБОТЫ</h3>
           <div>
             <div>
@@ -71,7 +75,26 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3">
+        <div class="science col-sm-12 col-md-9">
+          <h3>НАУЧНАЯ РАБОТА</h3>
+          <div>
+            <h4>СБОР СТАТИСТИКИ</h4>
+            <p>Занималась сбором и обработкой данных для докторской диссертации
+      Елены Борисовны Булиенко.</p>
+          </div>
+          <div>
+            <h4>ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК</h4>
+            <p>Перевод статьи-исследования на тему "Сочетанное применение
+      апигеля и магнитотерапии при местном лечении генерализованного
+      пародантита.</p>
+          </div>
+          <div>
+            <h4>ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК</h4>
+            <p>Изменение биохимических показателей слюны при эксперементальном
+      пародантите при применении апипрепарата.</p>
+          </div>
+        </div>
+        <div class="languages col-sm-12 col-md-3">
           <h3>ЯЗЫКИ</h3>
           <ul>
             <li>
@@ -110,26 +133,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-12 col-md-9">
-          <h3>НАУЧНАЯ РАБОТА</h3>
-          <div>
-            <h4>СБОР СТАТИСТИКИ</h4>
-            <p>Занималась сбором и обработкой данных для докторской диссертации
-      Елены Борисовны Булиенко.</p>
-          </div>
-          <div>
-            <h4>ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК</h4>
-            <p>Перевод статьи-исследования на тему "Сочетанное применение
-      апигеля и магнитотерапии при местном лечении генерализованного
-      пародантита.</p>
-          </div>
-          <div>
-            <h4>ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК</h4>
-            <p>Изменение биохимических показателей слюны при эксперементальном
-      пародантите при применении апипрепарата.</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-3">
+        <div class="skills col-sm-12 col-md-3">
           <h3>НАВЫКИ</h3>
           <ul>
             <li>
@@ -166,7 +170,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-sm-12 col-md-3">
+        <div class="courses col-sm-12 col-md-3 col-md-offset-9">
           <h4>КУРСЫ</h4>
           <div>
             <h3>АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ</h3>
@@ -180,5 +184,20 @@
       </div>
     </div>
   </div>
+
+  <script>
+    $(document).ready(function(){
+      var width = document.documentElement.clientWidth;
+      var parent = document.querySelector('.content'),
+          lang = document.querySelector('.languages'),
+          skills = document.querySelector('.skills'),
+          science = document.querySelector('.science');
+      var mover = {
+        langUp: function(elem, target) {
+          parent.insertBefore(elem, target);
+        }
+      }
+    })
+  </script>
 </body>
 </html>
