@@ -6,12 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="{% static 'style.css' %}">
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
   <div class="container">
-    {% block content %}
-    {% endblock%}
+    <div class="row">
+      <header class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-md-3">
+          <h1>Валерия <span>Мартын</span></h1>
+        </div>
+        <div class="col-sm-12 col-md-9">
+          <div class="video">
+            <a href="https://www.youtube.com/watch?v=J3nojb-gFH4" class="desk run-video" data-video-id="J3nojb-gFH4"></a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="content row">
+      {% block content %}
+      {% endblock %}
+    </div>
   </div>
+
+  <script>
+    $(document).ready(function(){
+      var parent = document.querySelector('.content'),
+          lang = document.querySelector('.languages'),
+          skills = document.querySelector('.skills-courses'),
+          science = document.querySelector('.science');
+
+      moveLang();
+      $(window).resize(moveLang);
+
+      function moveLang() {
+        if (document.documentElement.clientWidth > 768) {
+          parent.insertBefore(lang, science);
+          console.log('first rule')
+        } else {
+          console.log('second rule')
+          parent.insertBefore(lang, skills);
+        }
+        console.log('Width: ' + document.documentElement.clientWidth)
+      }
+    });
+  </script>
 </body>
 </html>
