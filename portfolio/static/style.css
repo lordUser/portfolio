@@ -1,7 +1,7 @@
 .video {
   display: inline-block;
-  width: 272px;
-  height: 272px;
+  width: 100%;
+  height: 100%;
   line-height: 16.75em; /*268px / 16px*/
 }
 
@@ -26,10 +26,20 @@
 }
 
 .video a {
-    position: relative;
-    display: inline-block;
-    height: 243px;
-    width: 243px;
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
-    vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  height: 243px;
+  width: 100%;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+  vertical-align: middle;
+  background: url('./images/video.png'), #fff;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
 }
+
+/*
+@media (max-width: 768px) {
+
+}
+*/
