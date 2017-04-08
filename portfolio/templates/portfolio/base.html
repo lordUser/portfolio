@@ -10,6 +10,7 @@
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
     crossorigin="anonymous"></script>
+    <script src="{% static 'main.js' %}"></script>
   <title>Document</title>
 </head>
 <body>
@@ -31,28 +32,5 @@
       {% endblock %}
     </div>
   </div>
-
-  <script>
-    $(document).ready(function(){
-      var parent = document.querySelector('.content'),
-          lang = document.querySelector('.languages'),
-          skills = document.querySelector('.skills-courses'),
-          science = document.querySelector('.science');
-
-      moveLang();
-      $(window).resize(moveLang);
-
-      function moveLang() {
-        if (document.documentElement.clientWidth > 768) {
-          parent.insertBefore(lang, science);
-          console.log('first rule')
-        } else {
-          console.log('second rule')
-          parent.insertBefore(lang, skills);
-        }
-        console.log('Width: ' + document.documentElement.clientWidth)
-      }
-    });
-  </script>
 </body>
 </html>
