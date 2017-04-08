@@ -1,5 +1,35 @@
+.video {
+  display: inline-block;
+  width: 272px;
+  height: 272px;
+  line-height: 16.75em; /*268px / 16px*/
+}
+
 .video a:after {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAZCAYAAAA14t7uAAABO0lEQVRIS2P8//+/IAMDQxoQg+ijQLyNkZHxL5CmCDACDd4ANMEfyZSrQHY20PCDlJgMMvgH0AB2LIYsA4qVAC14To4FIIP/49H4GSjXAMSTgBb8IcUCQgbDzCI5eIg1GGYB0cFDqsEgC4gKHnIMJip4KDEYOXhKgZH7DDlyqWEwyLwvQNwExBOAFvwGCVDLYJhjrwEZYUDDr1LbYJAFr4FYmRYGgwy3p4XBoAJMjtoG/wIamg4M4wXUNHgP0NBcoKE3qJUqngANKgIauJpa6RiUXvuAuBlo6Ff0ko/coEDxNrbilFSDsXqbEoNBsd2Py9vkGrwTGtu3sRmASwwUFP9AZQYWBY+AYoXAiFlHioEwtSCDzwE5hkiaQd7uAeJWoKHfyDEUlo5tgAxQGhQC4i1AXAE0kCRvY7McAA4smHZafTRWAAAAAElFTkSuQmCC);
   background-repeat: no-repeat;
   background-position: 54% 50%;
+}
+
+
+.video a:before,
+.video a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -34px 0 0 -34px;
+  border-radius: 50%;
+  display: block;
+  width: 68px;
+  height: 68px;
+}
+
+.video a {
+    position: relative;
+    display: inline-block;
+    height: 243px;
+    width: 243px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+    vertical-align: middle;
 }
