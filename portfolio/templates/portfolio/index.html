@@ -1,16 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{% static 'style.css' %}">
-  <title>Document</title>
-</head>
-<body>
-  <div class="container">
-    <div class="row">
+{% extends "card/base.html" %}
+{% block content %}
+   <div class="row">
       <header class="col-sm-12 col-md-12">
         <div class="col-sm-12 col-md-3">
           <h1>Валерия <span>Мартын</span></h1>
@@ -24,161 +14,24 @@
     </div>
     <div class="row">
         <div class="col-sm-12 col-md-9">
-          <h3>ОБРАЗОВАНИЕ</h3>
-          <div>
-            <div>
-              <h4>ДНЕПРОПЕТРОВСКАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ</h4>
-              <p>Специалитет. Стоматологический. Стоматология</p>
-            </div>
-            <div>
-              <p>2013 - 2016</p>
-            </div>
-          </div>
-          <div>
-            <div>
-              <h4>ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. ГОРЬКОГО</h4>
-              <p>Специалист. Стоматологический. Стоматология</p>
-            </div>
-            <div>
-              <p>2011 - 2013</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <h3>КОНТАКТЫ</h3>
-          <ul>
-            <li><p><span>ТЕЛЕФОН:</span>+420 776 623 757</p></li>     
-            <li><p><span>E-MAIL:</span>valeryvoskr@gmail.com</p></li>     
-            <li><p><span>ГОРОД:</span>Praha</p></li>      
-            <li><p><span>FB:</span>valeryvoskr</p></li>     
-            <li><p><span>VK:</span>id179401877</p></li>     
-          </ul>
+          {% include 'portfolio/education.html' %}
         </div>
         <div class="col-sm-12 col-md-9">
-          <h3>ОПЫТ РАБОТЫ</h3>
-          <div>
-            <div>
-              <h4>ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ</h4>
-              <p>Ассистент стоматолога.</p>
-              <ul>
-                <li>Ведение медицинской документации</li>
-                <li>Проведение профессиональной гигиены полости рта</li>
-                <li>Ассистирование проведения стоматологических манипуляций</li>
-              </ul>
-            </div>
-            <div>
-              <p>09/2012 - 05/2014</p>
-            </div>
-          </div>
+          {% include 'portfolio/experience.html' %}
         </div>
         <div class="col-sm-12 col-md-3">
-          <h3>ЯЗЫКИ</h3>
-          <ul>
-            <li>
-              <div>
-                <p>Russian</p> 
-                <p>Native</p>
-              </div>
-              <div>
-                <p>||||||||||</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <p>Ukrainian</p> 
-                <p>Native</p>
-              </div>
-              <div>
-                <p>||||||||||</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <p>English</p>
-              </div>
-              <div>
-                <p>|||||||...</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <p>Чешский</p>
-              </div>
-              <div>
-                <p>||||.......</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+          {% include 'portfolio/communications.html' %}
         <div class="col-sm-12 col-md-9">
-          <h3>НАУЧНАЯ РАБОТА</h3>
-          <div>
-            <h4>СБОР СТАТИСТИКИ</h4>
-            <p>Занималась сбором и обработкой данных для докторской диссертации
-      Елены Борисовны Булиенко.</p>
-          </div>
-          <div>
-            <h4>ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК</h4>
-            <p>Перевод статьи-исследования на тему "Сочетанное применение
-      апигеля и магнитотерапии при местном лечении генерализованного
-      пародантита.</p>
-          </div>
-          <div>
-            <h4>ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК</h4>
-            <p>Изменение биохимических показателей слюны при эксперементальном
-      пародантите при применении апипрепарата.</p>
-          </div>
+          {% include 'portfolio/scientific work.html' %}
         </div>
         <div class="col-sm-12 col-md-3">
-          <h3>НАВЫКИ</h3>
-          <ul>
-            <li>
-              <div>
-                <p>Документооборот</p>
-              </div>
-              <div>
-                <p>||||||||..</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <p>Постановка диагноза</p>
-              </div>
-              <div>
-                <p>|||||.....</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <p>Проф. гигиена</p>
-              </div>
-              <div>
-                <p>||||||||..</p>
-              </div>
-            </li>
-            <li>
-              <div>
-                <p>Лечение кариеса</p>
-              </div>
-              <div>
-                <p>||||......</p>
-              </div>
-            </li>
-          </ul>
+          {% include 'portfolio/languages.html' %}
         </div>
         <div class="col-sm-12 col-md-3">
-          <h4>КУРСЫ</h4>
-          <div>
-            <h3>АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ</h3>
-            <p>Пространственная модель размещения виниров.</p>
-          </div>
-          <div>
-            <h3>DENTLINE</h3>
-            <p>Несъемное протезирование(современные тенденции)</p>
-          </div>
+          {% include 'portfolio/skills.html' %}
         </div>
-      </div>
+        <div class="col-sm-12 col-md-3">
+          {% include 'portfolio/courses.html' %}
+        </div>
     </div>
-  </div>
-</body>
-</html>
+{% endblock %}
