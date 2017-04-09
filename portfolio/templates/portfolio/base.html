@@ -34,7 +34,7 @@
       {% endblock %}
     </div>
   </div>
-  <form action="#" method="post"> 
+  <form action="{% url 'set_language' %}" method="post"> 
       {% csrf_token %}
       <div class="form-group">
         <select name="language" onchange="javascript:form.submit()">
