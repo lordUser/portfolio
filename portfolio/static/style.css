@@ -34,7 +34,15 @@ tr > td:first-child {
   padding-left: 17px;
 }
 
-.padding-td td {
+.bold > td:last-child {
+  text-align: right;
+}
+
+.padding {
+  padding-bottom: 20px;
+}
+
+.padding td {
   padding-bottom: 20px;
 }
 
@@ -50,6 +58,10 @@ h1 {
 
 h1 span {
   font-weight: bold;
+}
+
+header {
+  margin-bottom: 30px;
 }
 
 header h1 {
@@ -102,6 +114,21 @@ header h1 {
   display: block;
   width: 68px;
   height: 68px;
+}
+
+/*Main content*/
+
+.expirience,
+.science {
+  margin-top: 70px;
+}
+
+.science p {
+  margin-bottom: 5px;
+}
+
+.science div {
+  padding-left: 17px;
 }
 
 /*

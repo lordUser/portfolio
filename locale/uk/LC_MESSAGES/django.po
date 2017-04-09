@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 02:09+0300\n"
+"POT-Creation-Date: 2017-04-09 23:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,11 +35,11 @@ msgstr ""
 msgid "Czech"
 msgstr ""
 
-#: portfolio/templates/portfolio/base.html:22
+#: portfolio/templates/portfolio/base.html:23
 msgid "Валерия"
 msgstr ""
 
-#: portfolio/templates/portfolio/base.html:22
+#: portfolio/templates/portfolio/base.html:23
 msgid "Мартын"
 msgstr ""
 
@@ -63,39 +63,36 @@ msgstr ""
 msgid "ОБРАЗОВАНИЕ"
 msgstr ""
 
-#: portfolio/templates/portfolio/education.html:5
+#: portfolio/templates/portfolio/education.html:7
 msgid "ДНЕПРОПЕТРОВСКАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ"
 msgstr ""
 
-#: portfolio/templates/portfolio/education.html:6
-msgid "Специалитет. Стоматологический. Стоматология"
+#: portfolio/templates/portfolio/education.html:11
+#: portfolio/templates/portfolio/education.html:18
+msgid "Специалист. Стоматологический. Стоматология"
 msgstr ""
 
 #: portfolio/templates/portfolio/education.html:14
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. ГОРЬКОГО"
 msgstr ""
 
-#: portfolio/templates/portfolio/education.html:15
-msgid "Специалист. Стоматологический. Стоматология"
-msgstr ""
-
 #: portfolio/templates/portfolio/experience.html:2
 msgid "ОПЫТ РАБОТЫ"
 msgstr ""
 
-#: portfolio/templates/portfolio/experience.html:5
+#: portfolio/templates/portfolio/experience.html:7
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
 msgstr ""
 
-#: portfolio/templates/portfolio/experience.html:8
+#: portfolio/templates/portfolio/experience.html:14
 msgid "Ведение медицинской документации"
 msgstr ""
 
-#: portfolio/templates/portfolio/experience.html:9
+#: portfolio/templates/portfolio/experience.html:15
 msgid "Проведение профессиональной гигиены полости рта"
 msgstr ""
 
-#: portfolio/templates/portfolio/experience.html:10
+#: portfolio/templates/portfolio/experience.html:16
 msgid "Ассистирование проведения стоматологических манипуляций"
 msgstr ""
 

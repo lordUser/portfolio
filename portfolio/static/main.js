@@ -9,13 +9,13 @@ $(document).ready(function(){
 
   function moveLang() {
     if (document.documentElement.clientWidth > 768) {
-      parent.insertBefore(lang, science);
       console.log('first rule')
+      parent.insertBefore(lang, science);
     } else {
       console.log('second rule')
       parent.insertBefore(lang, skills);
     }
     console.log('Width: ' + document.documentElement.clientWidth)
   }
-  // <!-- {% url 'set_language' %} -->
 });
+//{% url 'set_language' %}
