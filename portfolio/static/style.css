@@ -1,8 +1,88 @@
+/*Common*/
+
+h1, h2, h3, h4, p, td {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: solid 3px #775ba3;
+  font-weight: 600;
+  padding: 0 0 7px 45px;
+}
+
+h2:before {
+  content: '/';
+  display: inline-block;
+  padding: 10px 12px;
+  position: absolute;
+  left: 15px;
+  background: #775ba3;
+  color: #fff;
+  top: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+tr > td:first-child {
+  padding-left: 17px;
+}
+
+.padding-td td {
+  padding-bottom: 20px;
+}
+
+.col-md-9 h2 {
+  margin-bottom: 40px;
+}
+
+/*Header*/
+
+h1 {
+  font-size: 65px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+header h1 {
+  padding: 30px 0 0 15%;
+}
+
+.main {
+  padding-top: 30px;
+}
+
+/*Video*/
+
 .video {
   display: inline-block;
   width: 100%;
   height: 100%;
-  line-height: 16.75em; /*268px / 16px*/
+  line-height: 300px;
+  position: relative;
+}
+
+.video a {
+  position: relative;
+  display: inline-block;
+  height: 240px;
+  width: 80%;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
+  vertical-align: middle;
+  background: url(./images/video.png), #fff;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  float: right;
+  margin-right: 7%;
 }
 
 .video a:after {
@@ -10,7 +90,6 @@
   background-repeat: no-repeat;
   background-position: 54% 50%;
 }
-
 
 .video a:before,
 .video a:after {
@@ -25,21 +104,7 @@
   height: 68px;
 }
 
-.video a {
-  position: relative;
-  display: inline-block;
-  height: 243px;
-  width: 100%;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
-  vertical-align: middle;
-  background: url('./images/video.png'), #fff;
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
-}
-
 /*
 @media (max-width: 768px) {
 
 }
-*/

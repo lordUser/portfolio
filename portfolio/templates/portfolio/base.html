@@ -7,21 +7,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="{% static 'style.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&amp;subset=cyrillic-ext,latin-ext" rel="stylesheet">
   <script
     src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
     crossorigin="anonymous"></script>
-    <script src="{% static 'main.js' %}"></script>
-  <title>Document</title>
+  <script src="{% static 'main.js' %}"></script>
+  <title>Valeria Martyn</title>
 </head>
 <body>
-  <div class="container">
+  <div class="main container">
     <div class="row">
       <header class="col-sm-12 col-md-12">
-        <div class="col-sm-12 col-md-3">
+        <div class="col-sm-12 col-md-4">
           <h1>{% trans 'Валерия' %} <span>{% trans 'Мартын' %}</span></h1>
         </div>
-        <div class="col-sm-12 col-md-9">
+        <div class="col-sm-12 col-md-8">
           <div class="video">
             <a href="https://www.youtube.com/watch?v=J3nojb-gFH4" class="desk run-video" data-video-id="J3nojb-gFH4"></a>
           </div>
@@ -33,16 +34,16 @@
       {% endblock %}
     </div>
   </div>
-  <form action="{% url 'set_language' %}" method="post">
-                  {% csrf_token %}
-                  <div class="form-group">
-                    <select name="language" onchange="javascript:form.submit()">
-                        <option value="en" {% if request.LANGUAGE_CODE == 'en' %}selected="selected"{% endif %}>English</option>
-                        <option value="ru" {% if request.LANGUAGE_CODE == 'ru' %}selected="selected"{% endif %}>Russian</option>
-                        <option value="uk" {% if request.LANGUAGE_CODE == 'uk' %}selected="selected"{% endif %}>Ukrainian</option>
-                        <option value="cs" {% if request.LANGUAGE_CODE == 'cs' %}selected="selected"{% endif %}>Czech</option>
-                    </select>
-                  </div>
-              </form>
+  <form action="#" method="post"> 
+      {% csrf_token %}
+      <div class="form-group">
+        <select name="language" onchange="javascript:form.submit()">
+            <option value="en" {% if request.LANGUAGE_CODE == 'en' %}selected="selected"{% endif %}>English</option>
+            <option value="ru" {% if request.LANGUAGE_CODE == 'ru' %}selected="selected"{% endif %}>Russian</option>
+            <option value="uk" {% if request.LANGUAGE_CODE == 'uk' %}selected="selected"{% endif %}>Ukrainian</option>
+            <option value="cs" {% if request.LANGUAGE_CODE == 'cs' %}selected="selected"{% endif %}>Czech</option>
+        </select>
+      </div>
+  </form>
 </body>
 </html>
