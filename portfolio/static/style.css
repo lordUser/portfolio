@@ -1,6 +1,6 @@
 /*Common*/
 
-h1, h2, h3, h4, p, td {
+h1, h2, h3, h4, p, td, li {
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -9,6 +9,7 @@ h2 {
   border-bottom: solid 3px #775ba3;
   font-weight: 600;
   padding: 0 0 7px 45px;
+  position: relative;
 }
 
 h2:before {
@@ -16,10 +17,10 @@ h2:before {
   display: inline-block;
   padding: 10px 12px;
   position: absolute;
-  left: 15px;
+  left: 0px;
   background: #775ba3;
   color: #fff;
-  top: 10px;
+  top: -10px;
 }
 
 .bold {
@@ -48,6 +49,15 @@ tr > td:first-child {
 
 .col-md-9 h2 {
   margin-bottom: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
 }
 
 /*Header*/
@@ -123,12 +133,48 @@ header h1 {
   margin-top: 70px;
 }
 
+.contacts li {
+  padding: 0 0 10px 20px;
+}
+
+li.plus:before {
+  content: '+';
+  display: inline-block;
+  position: absolute;
+  left: 5px;
+  font-weight: bold;
+}
+
+.languages .plus,
+.skills-courses .plus {
+  padding-left: 20px;
+}
+
+.languages .padding {
+  padding-bottom: 10px;
+}
+
 .science p {
   margin-bottom: 5px;
 }
 
 .science div {
   padding-left: 17px;
+}
+
+.expirience li {
+  padding-bottom: 10px;
+}
+
+.expirience li:before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  left: -15px;
+  top: 7px;
+  background: #775ba3;
 }
 
 /*

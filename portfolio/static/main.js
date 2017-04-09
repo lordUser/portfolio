@@ -18,4 +18,3 @@ $(document).ready(function(){
     console.log('Width: ' + document.documentElement.clientWidth)
   }
 });
-//{% url 'set_language' %}

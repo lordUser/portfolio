@@ -1,47 +1,17 @@
 {% load i18n %}
 <h2>{% trans 'НАВЫКИ' %}</h2>
 <ul>
-  <li>
-    <div>
-      <p>{% trans 'Документооборот' %}</p>
-    </div>
-    <div>
-      <p>||||||||..</p>
-    </div>
-  </li>
-  <li>
-    <div>
-      <p>{% trans 'Постановка диагноза' %}</p>
-    </div>
-    <div>
-      <p>|||||.....</p>
-    </div>
-  </li>
-  <li>
-    <div>
-      <p>{% trans 'Проф. гигиена' %}</p>
-    </div>
-    <div>
-      <p>||||||||..</p>
-    </div>
-  </li>
-  <li>
-    <div>
-      <p>{% trans 'Лечение кариеса' %}</p>
-    </div>
-    <div>
-      <p>||||......</p>
-    </div>
-  </li>
+  <li class="bold plus">{% trans 'Документооборот' %}</li>
+  <li class="bold plus">{% trans 'Постановка диагноза' %}</li>
+  <li class="bold plus">{% trans 'Проф. гигиена' %}</li>
+  <li class="bold plus">{% trans 'Лечение кариеса' %}</li>
 </ul>
 <div class="courses">
   <h2>{% trans 'КУРСЫ' %}</h2>
-  <div>
-    <p>{% trans 'АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ' %}</p>
-    <p>{% trans 'Пространственная модель размещения виниров.' %}</p>
-  </div>
-  <div>
-    <p>DENTLINE</p>
-    <p>{% trans 'Несъемное протезирование(современные тенденции)' %}</p>
-  </div>
+  <ul>
+    <li class="bold">{% trans 'АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ' %}</li>
+    <li class="padding">{% trans 'Пространственная модель размещения виниров.' %}</li>
+    <li class="bold">DENTLINE</li>
+    <li class="padding">{% trans 'Несъемное протезирование (современные тенденции)' %}</li>
+  </ul>
 </div>
