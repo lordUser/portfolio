@@ -94,7 +94,6 @@ header h1 {
   display: inline-block;
   width: 100%;
   height: 100%;
-  line-height: 300px;
   position: relative;
 }
 
@@ -104,11 +103,11 @@ header h1 {
   vertical-align: middle;
   background: #fff;
   float: right;
-  margin-right: 7%;
+  width: 80%;
 }
 
 .video img {
-  max-height: 240px;
+  width: 100%;
 }
 
 .video a:after {
@@ -314,6 +313,14 @@ select:focus {
 
   header h1 {
     padding: 0;
+  }
+
+  .video {
+    margin-top: 50px;
+  }
+
+  .video a {
+    width: 100%;
   }
 }
 
