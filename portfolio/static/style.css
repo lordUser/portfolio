@@ -1,6 +1,6 @@
 /*Common*/
 
-h1, h2, h3, h4, p, td, li {
+h1, h2, h3, h4, p, td, li, option, select {
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -37,6 +37,7 @@ tr > td:first-child {
 
 .bold > td:last-child {
   text-align: right;
+  white-space: pre;
 }
 
 .padding {
@@ -49,6 +50,10 @@ tr > td:first-child {
 
 .col-md-9 h2 {
   margin-bottom: 40px;
+}
+
+.col-md-3 h2 {
+  margin-bottom: 20px;
 }
 
 ul {
@@ -75,11 +80,12 @@ header {
 }
 
 header h1 {
-  padding: 30px 0 0 15%;
+  padding: 30px 0 0 30%;
 }
 
 .main {
   padding-top: 30px;
+  overflow: hidden;
 }
 
 /*Video*/
@@ -95,16 +101,14 @@ header h1 {
 .video a {
   position: relative;
   display: inline-block;
-  height: 240px;
-  width: 80%;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2);
   vertical-align: middle;
-  background: url(./images/video.png), #fff;
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  background-size: contain;
+  background: #fff;
   float: right;
   margin-right: 7%;
+}
+
+.video img {
+  max-height: 240px;
 }
 
 .video a:after {
@@ -126,9 +130,52 @@ header h1 {
   height: 68px;
 }
 
+.modal-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .7);
+  z-index: 20;
+  opacity: 0;
+  display: none;
+  transition: opacity 2s;
+}
+
+.modal-video.active {
+  opacity: 1;
+}
+
+.modal-video-wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-video-close {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  height: 40px;
+  width: 40px;
+  border: solid 1px #232422;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 29px;
+  color: #232422;
+}
+
+.modal-video-close:hover {
+  cursor: pointer;
+}
+
 /*Main content*/
 
-.expirience,
+.experience,
 .science {
   margin-top: 70px;
 }
@@ -145,13 +192,23 @@ li.plus:before {
   font-weight: bold;
 }
 
+.social a {
+  margin-left: 10px;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+}
+
+.languages li,
+.skills li {
+  font-size: 12px;
+}
+
 .languages .plus,
 .skills-courses .plus {
   padding-left: 20px;
-}
-
-.languages .padding {
-  padding-bottom: 10px;
 }
 
 .science p {
@@ -162,11 +219,11 @@ li.plus:before {
   padding-left: 17px;
 }
 
-.expirience li {
+.experience li {
   padding-bottom: 10px;
 }
 
-.expirience li:before {
+.experience li:before {
   content: '';
   display: inline-block;
   width: 5px;
@@ -177,7 +234,103 @@ li.plus:before {
   background: #775ba3;
 }
 
-/*
-@media (max-width: 768px) {
+/*Progress bars*/
 
+.progress-bars {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.progress-bars span {
+  display: inline-block;
+  background: url(./images/slash.svg);
+  width: 10px;
+  height: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.progress-bars span:not(:nth-child(1)) {
+  margin-left: -4px;
+}
+
+.lang-eng .progress-bars span:nth-child(1n+8) {
+  background-image: url(./images/slash_gray.svg);
+}
+
+.lang-cz .progress-bars span:nth-child(1n+5),
+.skill-cur .progress-bars span:nth-child(1n+5) {
+  background-image: url(./images/slash_gray.svg);
+}
+.skill-doc .progress-bars span:nth-child(1n+9),
+.skill-hyg .progress-bars span:nth-child(1n+9) {
+  background-image: url(./images/slash_gray.svg);
+}
+.skill-diag .progress-bars span:nth-child(1n+6) {
+  background-image: url(./images/slash_gray.svg);
+}
+
+select.form-group {
+  background-color: #775ba3;
+  border-color: transparent;
+  color: #fff;
+}
+
+select:focus {
+  outline: none;
+}
+
+.ribbon-lang {
+  position: absolute;
+  background: #775ba3;
+  top: 60px;
+  z-index: 1;
+}
+
+.ribbon-lang:before {
+  content: '';
+  display: inline-block;
+  height: 43px;
+  position: absolute;
+  left: -1000px;
+  background: #775ba3;
+  right: 82px;
+}
+
+.ribbon-lang .form-group {
+  float: right;
+  margin: 5px 5px 5px 0;
+}
+
+@media (max-width: 976px) {
+  .ribbon-lang {
+    top: 170px;
+  }
+
+  .main {
+    padding-top: 0;
+  }
+
+  header h1 {
+    padding: 0;
+  }
+}
+
+@media (min-width: 620px) {
+  .ribbon-lang {
+    top: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .ribbon-lang {
+    top: 60px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .ribbon-lang {
+    top: 60px;
+  }
 }
