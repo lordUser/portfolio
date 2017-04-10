@@ -43,7 +43,7 @@ msgstr ""
 
 #: portfolio/templates/portfolio/contacts.html:2
 msgid "КОНТАКТЫ"
-msgstr ""
+msgstr "Contacts"
 
 #: portfolio/templates/portfolio/contacts.html:4
 msgid "ТЕЛЕФОН"
