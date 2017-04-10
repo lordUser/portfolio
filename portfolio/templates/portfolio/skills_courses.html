@@ -1,10 +1,10 @@
 {% load i18n %}
 <h2>{% trans 'НАВЫКИ' %}</h2>
-<ul>
-  <li class="bold plus">{% trans 'Документооборот' %}</li>
-  <li class="bold plus">{% trans 'Постановка диагноза' %}</li>
-  <li class="bold plus">{% trans 'Проф. гигиена' %}</li>
-  <li class="bold plus">{% trans 'Лечение кариеса' %}</li>
+<ul class="skills">
+  <li class="skill-doc bold plus padding">{% trans 'Документооборот' %} {% include 'portfolio/rating_bars.html' %}</li>
+  <li class="skill-diag bold plus padding">{% trans 'Постановка диагноза' %} {% include 'portfolio/rating_bars.html' %}</li>
+  <li class="skill-hyg bold plus padding">{% trans 'Проф. гигиена' %} {% include 'portfolio/rating_bars.html' %}</li>
+  <li class="skill-cur bold plus padding">{% trans 'Лечение кариеса' %} {% include 'portfolio/rating_bars.html' %}</li>
 </ul>
 <div class="courses">
   <h2>{% trans 'КУРСЫ' %}</h2>
