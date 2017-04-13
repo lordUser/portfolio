@@ -218,6 +218,15 @@ li.plus:before {
   padding-left: 17px;
 }
 
+<<<<<<< HEAD
+select.form-group {
+  background-color: #775ba3;
+  border-color: transparent;
+  color: white;
+}
+/*
+@media (max-width: 768px) {
+=======
 .experience li {
   padding-bottom: 10px;
 }
@@ -275,6 +284,7 @@ select.form-group {
   border-color: transparent;
   color: #fff;
 }
+>>>>>>> 2ee9c0af1fafb5e51aa2f6904eb4d9e40713d31a
 
 select:focus {
   outline: none;
