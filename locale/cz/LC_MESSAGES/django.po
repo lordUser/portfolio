@@ -36,31 +36,31 @@ msgstr ""
 
 #: portfolio/templates/portfolio/base.html:23
 msgid "Валерия"
-msgstr ""
+msgstr "Valeriia"
 
 #: portfolio/templates/portfolio/base.html:23
 msgid "Мартын"
-msgstr ""
+msgstr "Martyn"
 
 #: portfolio/templates/portfolio/contacts.html:2
 msgid "КОНТАКТЫ"
-msgstr ""
+msgstr "KONTAKTNÍ INFORMACE"
 
 #: portfolio/templates/portfolio/contacts.html:4
 msgid "ТЕЛЕФОН"
-msgstr ""
+msgstr "TEL Č"
 
 #: portfolio/templates/portfolio/contacts.html:5
 msgid "E-MAIL"
-msgstr ""
+msgstr "E-MAIL"
 
 #: portfolio/templates/portfolio/contacts.html:6
 msgid "ГОРОД"
-msgstr ""
+msgstr "MĚSTO"
 
 #: portfolio/templates/portfolio/education.html:2
 msgid "ОБРАЗОВАНИЕ"
-msgstr ""
+msgstr "PRAXE"
 
 #: portfolio/templates/portfolio/education.html:7
 msgid "ДНЕПРОПЕТРОВСКАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ"
@@ -69,11 +69,11 @@ msgstr ""
 #: portfolio/templates/portfolio/education.html:11
 #: portfolio/templates/portfolio/education.html:18
 msgid "Специалист. Стоматологический. Стоматология"
-msgstr ""
+msgstr "Zubní instrumentářka"
 
 #: portfolio/templates/portfolio/education.html:14
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. ГОРЬКОГО"
-msgstr ""
+msgstr "DONĚTSKÁ NÁRODNÍ  LEKAŘSKÁ UNIVERZITA"
 
 #: portfolio/templates/portfolio/experience.html:2
 msgid "ОПЫТ РАБОТЫ"
@@ -81,19 +81,19 @@ msgstr ""
 
 #: portfolio/templates/portfolio/experience.html:7
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
-msgstr ""
+msgstr "DONĚTSKÁ NÁRODNÍ  LEKAŘSKÁ UNIVERZITA"
 
 #: portfolio/templates/portfolio/experience.html:14
 msgid "Ведение медицинской документации"
-msgstr ""
+msgstr "Vedení evidence pacientů, jejich lekařské dokumentace"
 
 #: portfolio/templates/portfolio/experience.html:15
 msgid "Проведение профессиональной гигиены полости рта"
-msgstr ""
+msgstr "Prevence a dentalní hygiena"
 
 #: portfolio/templates/portfolio/experience.html:16
 msgid "Ассистирование проведения стоматологических манипуляций"
-msgstr ""
+msgstr "Asistovala zubnímu lékaři"
 
 #: portfolio/templates/portfolio/languages.html:2
 msgid "ЯЗЫКИ"
