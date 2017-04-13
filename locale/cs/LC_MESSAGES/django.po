@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-09 23:47+0300\n"
+"POT-Creation-Date: 2017-04-13 22:44+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,142 +27,138 @@ msgid "Russian"
 msgstr ""
 
 #: mysite/settings.py:113
-msgid "Ukrainian"
-msgstr ""
-
-#: mysite/settings.py:114
 msgid "Czech"
 msgstr ""
 
-#: portfolio/templates/portfolio/base.html:23
+#: portfolio/templates/portfolio/base.html:48
 msgid "Валерия"
-msgstr ""
+msgstr "Valeriia"
 
-#: portfolio/templates/portfolio/base.html:23
+#: portfolio/templates/portfolio/base.html:48
 msgid "Мартын"
-msgstr ""
+msgstr "Martyn"
 
-#: portfolio/templates/portfolio/contacts.html:2
-msgid "КОНТАКТЫ"
-msgstr ""
-
-#: portfolio/templates/portfolio/contacts.html:4
-msgid "ТЕЛЕФОН"
-msgstr ""
-
-#: portfolio/templates/portfolio/contacts.html:5
-msgid "E-MAIL"
-msgstr ""
-
-#: portfolio/templates/portfolio/contacts.html:6
-msgid "ГОРОД"
-msgstr ""
-
-#: portfolio/templates/portfolio/education.html:2
+#: portfolio/templates/portfolio/index.html:6
 msgid "ОБРАЗОВАНИЕ"
-msgstr ""
+msgstr "PRAXE"
 
-#: portfolio/templates/portfolio/education.html:7
+#: portfolio/templates/portfolio/index.html:11
 msgid "ДНЕПРОПЕТРОВСКАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ"
 msgstr ""
 
-#: portfolio/templates/portfolio/education.html:11
-#: portfolio/templates/portfolio/education.html:18
+#: portfolio/templates/portfolio/index.html:15
+#: portfolio/templates/portfolio/index.html:22
 msgid "Специалист. Стоматологический. Стоматология"
-msgstr ""
+msgstr "Zubní instrumentářka"
 
-#: portfolio/templates/portfolio/education.html:14
+#: portfolio/templates/portfolio/index.html:18
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. ГОРЬКОГО"
-msgstr ""
+msgstr "DONĚTSKÁ NÁRODNÍ  LEKAŘSKÁ UNIVERZITA"
 
-#: portfolio/templates/portfolio/experience.html:2
+#: portfolio/templates/portfolio/index.html:29
 msgid "ОПЫТ РАБОТЫ"
 msgstr ""
 
-#: portfolio/templates/portfolio/experience.html:7
+#: portfolio/templates/portfolio/index.html:34
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
-msgstr ""
+msgstr "DONĚTSKÁ NÁRODNÍ  LEKAŘSKÁ UNIVERZITA"
 
-#: portfolio/templates/portfolio/experience.html:14
+#: portfolio/templates/portfolio/index.html:41
 msgid "Ведение медицинской документации"
-msgstr ""
+msgstr "Vedení evidence pacientů, jejich lekařské dokumentace"
 
-#: portfolio/templates/portfolio/experience.html:15
+#: portfolio/templates/portfolio/index.html:42
 msgid "Проведение профессиональной гигиены полости рта"
-msgstr ""
+msgstr "Prevence a dentalní hygiena"
 
-#: portfolio/templates/portfolio/experience.html:16
+#: portfolio/templates/portfolio/index.html:43
 msgid "Ассистирование проведения стоматологических манипуляций"
-msgstr ""
+msgstr "Asistovala zubnímu lékaři"
 
-#: portfolio/templates/portfolio/languages.html:2
-msgid "ЯЗЫКИ"
-msgstr ""
-
-#: portfolio/templates/portfolio/science.html:2
+#: portfolio/templates/portfolio/index.html:52
 msgid "НАУЧНАЯ РАБОТА"
 msgstr ""
 
-#: portfolio/templates/portfolio/science.html:4
+#: portfolio/templates/portfolio/index.html:54
 msgid "СБОР СТАТИСТИКИ"
 msgstr ""
 
-#: portfolio/templates/portfolio/science.html:5
+#: portfolio/templates/portfolio/index.html:55
 msgid ""
 "Занималась сбором и обработкой данных для докторской диссертации Елены "
 "Борисовны Булиенко.\n"
-"    "
+"              "
 msgstr ""
 
-#: portfolio/templates/portfolio/science.html:10
-#: portfolio/templates/portfolio/science.html:14
+#: portfolio/templates/portfolio/index.html:60
+#: portfolio/templates/portfolio/index.html:64
 msgid "ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК"
 msgstr ""
 
-#: portfolio/templates/portfolio/science.html:11
+#: portfolio/templates/portfolio/index.html:61
 msgid ""
 "Перевод статьи-исследования на тему \"Сочетанное применение апигеля и "
 "магнитотерапии при местном лечении генерализованного пародантита."
 msgstr ""
 
-#: portfolio/templates/portfolio/science.html:15
+#: portfolio/templates/portfolio/index.html:65
 msgid ""
 "Изменение биохимических показателей слюны при эксперементальном пародантите "
 "при применении апипрепарата."
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:2
+#: portfolio/templates/portfolio/index.html:71
+msgid "КОНТАКТЫ"
+msgstr "KONTAKTNÍ INFORMACE"
+
+#: portfolio/templates/portfolio/index.html:73
+msgid "ТЕЛЕФОН"
+msgstr "TEL Č"
+
+#: portfolio/templates/portfolio/index.html:74
+msgid "E-MAIL"
+msgstr "E-MAIL"
+
+#: portfolio/templates/portfolio/index.html:75
+msgid "ГОРОД"
+msgstr "MĚSTO"
+
+#: portfolio/templates/portfolio/index.html:80
+msgid "ЯЗЫКИ"
+msgstr ""
+
+#: portfolio/templates/portfolio/index.html:91
 msgid "НАВЫКИ"
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:6
+#: portfolio/templates/portfolio/index.html:93
 msgid "Документооборот"
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:14
+#: portfolio/templates/portfolio/index.html:94
 msgid "Постановка диагноза"
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:22
+#: portfolio/templates/portfolio/index.html:95
 msgid "Проф. гигиена"
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:30
+#: portfolio/templates/portfolio/index.html:96
 msgid "Лечение кариеса"
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:38
+#: portfolio/templates/portfolio/index.html:100
 msgid "КУРСЫ"
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:40
+#: portfolio/templates/portfolio/index.html:102
 msgid "АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ"
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:41
+#: portfolio/templates/portfolio/index.html:103
 msgid "Пространственная модель размещения виниров."
 msgstr ""
 
-#: portfolio/templates/portfolio/skills_courses.html:45
-msgid "Несъемное протезирование(современные тенденции)"
+#: portfolio/templates/portfolio/index.html:105
+msgid "Несъемное протезирование (современные тенденции)"
 msgstr ""

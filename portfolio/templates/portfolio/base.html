@@ -17,27 +17,28 @@
 </head>
 <body>
   <div class="main container">
+    <div class="ribbon-lang">
+      <form action="{% url 'set_language' %}" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+          <select class="form-group" name="language" onchange="javascript:form.submit()">
+              <option value="en" {% if request.LANGUAGE_CODE == 'en' %}selected="selected"{% endif %}>English</option>
+              <option value="ru" {% if request.LANGUAGE_CODE == 'ru' %}selected="selected"{% endif %}>Russian</option>
+              <option value="cs" {% if request.LANGUAGE_CODE == 'cs' %}selected="selected"{% endif %}>Czech</option>
+          </select>
+        </div>
+      </form>
+    </div>
     <div class="row">
       <header class="col-sm-12 col-md-12">
-        <div class="col-sm-12 col-md-12">
-          <form action="{% url 'set_language' %}" method="post"> 
-            {% csrf_token %}
-            <div class="form-group">
-              <select name="language" onchange="javascript:form.submit()" class="form-group">
-                  <option value="en" {% if request.LANGUAGE_CODE == 'en' %}selected="selected"{% endif %}>English</option>
-                  <option value="ru" {% if request.LANGUAGE_CODE == 'ru' %}selected="selected"{% endif %}>Russian</option>
-                  <option value="uk" {% if request.LANGUAGE_CODE == 'uk' %}selected="selected"{% endif %}>Ukrainian</option>
-                  <option value="cs" {% if request.LANGUAGE_CODE == 'cs' %}selected="selected"{% endif %}>Czech</option>
-              </select>
-            </div>
-          </form>
-        </div>
         <div class="col-sm-12 col-md-4">
           <h1>{% trans 'Валерия' %} <span>{% trans 'Мартын' %}</span></h1>
         </div>
         <div class="col-sm-12 col-md-8">
           <div class="video">
-            <a href="https://www.youtube.com/watch?v=J3nojb-gFH4" class="desk run-video" data-video-id="J3nojb-gFH4"></a>
+            <a href="https://www.youtube.com/watch?v=J3nojb-gFH4" class="run-video" data-video-id="J3nojb-gFH4">
+              <img src="../../static/images/video.png" alt="video screenshot">
+            </a>
           </div>
         </div>
       </header>
@@ -45,6 +46,12 @@
     <div class="content row">
       {% block content %}
       {% endblock %}
+    </div>
+  </div>
+  <div class="modal-video">
+    <div class="modal-video-wrap">
+      <div class="modal-video-close">X</div>
+      <!-- place for youtube iframe from js -->
     </div>
   </div>
 </body>

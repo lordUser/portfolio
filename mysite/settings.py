@@ -26,7 +26,7 @@ SECRET_KEY = '!@j0h&uo2aoukatfo&3g@d7+u*79(dcmm$ztnv3d+b+*j%!8)+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sapega89.pythonanywhere.com', '*']
 
 
 # Application definition
@@ -110,8 +110,7 @@ LANGUAGE_CODE = 'ru'
 LANGUAGES = [
     ('en', _('English')),
     ('ru', _('Russian')),
-    ('uk', _('Ukrainian')),
-    ('cs', _('Czech')),
+    ('cs', _('Czech'))
 ]
 
 DEFAULT_LANGUAGE = 1

@@ -35,133 +35,133 @@ msgstr ""
 
 #: portfolio/templates/portfolio/base.html:23
 msgid "Валерия"
-msgstr ""
+msgstr "Valeriia"
 
 #: portfolio/templates/portfolio/base.html:23
 msgid "Мартын"
-msgstr ""
+msgstr "Martyn"
 
 #: portfolio/templates/portfolio/contacts.html:2
 msgid "КОНТАКТЫ"
-msgstr ""
+msgstr "CONTACTS"
 
 #: portfolio/templates/portfolio/contacts.html:4
 msgid "ТЕЛЕФОН"
-msgstr ""
+msgstr "PHONE"
 
 #: portfolio/templates/portfolio/contacts.html:5
 msgid "E-MAIL"
-msgstr ""
+msgstr "E-MAIL"
 
 #: portfolio/templates/portfolio/contacts.html:6
 msgid "ГОРОД"
-msgstr ""
+msgstr "CITY"
 
 #: portfolio/templates/portfolio/education.html:2
 msgid "ОБРАЗОВАНИЕ"
-msgstr ""
+msgstr "EDUCATION"
 
 #: portfolio/templates/portfolio/education.html:7
 msgid "ДНЕПРОПЕТРОВСКАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ"
-msgstr ""
+msgstr "DNEPROPETROVSK MEDICAL ACADEMY"
 
 #: portfolio/templates/portfolio/education.html:11
 #: portfolio/templates/portfolio/education.html:18
 msgid "Специалист. Стоматологический. Стоматология"
-msgstr ""
+msgstr "Specialist. Dentistry"
 
 #: portfolio/templates/portfolio/education.html:14
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. ГОРЬКОГО"
-msgstr ""
+msgstr "DONETSK NATIONAL MEDICAL UNIVERSITY"
 
 #: portfolio/templates/portfolio/experience.html:2
 msgid "ОПЫТ РАБОТЫ"
-msgstr ""
+msgstr "EXPERIENCE"
 
 #: portfolio/templates/portfolio/experience.html:7
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
-msgstr ""
+msgstr "DONETSK NATIONAL MEDICAL UNIVERSITY"
 
 #: portfolio/templates/portfolio/experience.html:14
 msgid "Ведение медицинской документации"
-msgstr ""
+msgstr "Maintenance of medical records"
 
 #: portfolio/templates/portfolio/experience.html:15
 msgid "Проведение профессиональной гигиены полости рта"
-msgstr ""
+msgstr "Professional oral hygiene "
 
 #: portfolio/templates/portfolio/experience.html:16
 msgid "Ассистирование проведения стоматологических манипуляций"
-msgstr ""
+msgstr "Assisting of providing dental manipulations"
 
 #: portfolio/templates/portfolio/languages.html:2
 msgid "ЯЗЫКИ"
-msgstr ""
+msgstr "LANGUAGES"
 
 #: portfolio/templates/portfolio/science.html:2
 msgid "НАУЧНАЯ РАБОТА"
-msgstr ""
+msgstr "SCIENTIFIC WORK"
 
 #: portfolio/templates/portfolio/science.html:4
 msgid "СБОР СТАТИСТИКИ"
-msgstr ""
+msgstr "COLLECTION OF STATISTICS"
 
 #: portfolio/templates/portfolio/science.html:5
 msgid ""
 "Занималась сбором и обработкой данных для докторской диссертации Елены "
 "Борисовны Булиенко.\n"
 "    "
-msgstr ""
+msgstr "Collection and data processing for Helen’s Bulienko doctoral dissertation"
 
 #: portfolio/templates/portfolio/science.html:10
 #: portfolio/templates/portfolio/science.html:14
 msgid "ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК"
-msgstr ""
+msgstr "TRANSLATION OF THE RESERCHES IN ENGLISH"
 
 #: portfolio/templates/portfolio/science.html:11
 msgid ""
 "Перевод статьи-исследования на тему \"Сочетанное применение апигеля и "
 "магнитотерапии при местном лечении генерализованного пародантита."
-msgstr ""
+msgstr "Translation of an article on the topic “Combined application of apigel and magnetotherapy in the local treatment of generalized parodontitis."
 
 #: portfolio/templates/portfolio/science.html:15
 msgid ""
 "Изменение биохимических показателей слюны при эксперементальном пародантите "
 "при применении апипрепарата."
-msgstr ""
+msgstr "Changes in biochemical parameters of saliva with experimental parodontite with application of apipreparation"
 
 #: portfolio/templates/portfolio/skills_courses.html:2
 msgid "НАВЫКИ"
-msgstr ""
+msgstr "SCILLS"
 
 #: portfolio/templates/portfolio/skills_courses.html:6
 msgid "Документооборот"
-msgstr ""
+msgstr "Document management"
 
 #: portfolio/templates/portfolio/skills_courses.html:14
 msgid "Постановка диагноза"
-msgstr ""
+msgstr "Diagnostics"
 
 #: portfolio/templates/portfolio/skills_courses.html:22
 msgid "Проф. гигиена"
-msgstr ""
+msgstr "Dental hygiene"
 
 #: portfolio/templates/portfolio/skills_courses.html:30
 msgid "Лечение кариеса"
-msgstr ""
+msgstr "Caries treatment"
 
 #: portfolio/templates/portfolio/skills_courses.html:38
 msgid "КУРСЫ"
-msgstr ""
+msgstr "COURSES"
 
 #: portfolio/templates/portfolio/skills_courses.html:40
 msgid "АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ"
-msgstr ""
+msgstr "DENTAL ASSOCIATION OF DONETSK"
 
 #: portfolio/templates/portfolio/skills_courses.html:41
 msgid "Пространственная модель размещения виниров."
-msgstr ""
+msgstr "Spatial model of veneers placement"
 
 #: portfolio/templates/portfolio/skills_courses.html:45
 msgid "Несъемное протезирование(современные тенденции)"
-msgstr ""
+msgstr "Fixed prosthetics ( current trends)"
