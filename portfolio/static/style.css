@@ -131,6 +131,11 @@ header h1 {
   padding-left: 17px;
 }
 
+select.form-group {
+  background-color: #775ba3;
+  border-color: transparent;
+  color: white;
+}
 /*
 @media (max-width: 768px) {
 
