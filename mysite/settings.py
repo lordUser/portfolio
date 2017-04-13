@@ -110,7 +110,7 @@ LANGUAGE_CODE = 'ru'
 LANGUAGES = [
     ('en', _('English')),
     ('ru', _('Russian')),
-    ('cz', _('Czech'))
+    ('cs', _('Czech'))
 ]
 
 DEFAULT_LANGUAGE = 1

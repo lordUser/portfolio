@@ -18,13 +18,13 @@
 <body>
   <div class="main container">
     <div class="ribbon-lang">
-      <form action="{% url 'set_language' %}" method="post"> 
+      <form action="{% url 'set_language' %}" method="post">
         {% csrf_token %}
         <div class="form-group">
           <select class="form-group" name="language" onchange="javascript:form.submit()">
               <option value="en" {% if request.LANGUAGE_CODE == 'en' %}selected="selected"{% endif %}>English</option>
               <option value="ru" {% if request.LANGUAGE_CODE == 'ru' %}selected="selected"{% endif %}>Russian</option>
-              <option value="cz" {% if request.LANGUAGE_CODE == 'cz' %}selected="selected"{% endif %}>Czech</option>
+              <option value="cs" {% if request.LANGUAGE_CODE == 'cs' %}selected="selected"{% endif %}>Czech</option>
           </select>
         </div>
       </form>
