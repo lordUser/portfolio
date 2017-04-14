@@ -1,9 +1,5 @@
 /*Common*/
 
-h1, h2, h3, h4, p, td, li, option, select {
-  font-family: 'Noto Sans', sans-serif;
-}
-
 h2 {
   font-size: 24px;
   border-bottom: solid 3px #775ba3;
@@ -300,7 +296,8 @@ select:focus {
   position: absolute;
   left: -1000px;
   background: #775ba3;
-  right: 82px;
+  right: 0;
+  z-index: -1;
 }
 
 .ribbon-lang .form-group {
