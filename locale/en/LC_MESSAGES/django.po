@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-14 10:14+0300\n"
+"POT-Creation-Date: 2017-04-14 12:18+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,21 @@ msgstr ""
 #: mysite/settings.py:112
 msgid "Czech"
 msgstr ""
+
+#: portfolio/templates/portfolio/base.html:25
+#: portfolio/templates/portfolio/index.html:85
+msgid "Английский"
+msgstr "English"
+
+#: portfolio/templates/portfolio/base.html:26
+#: portfolio/templates/portfolio/index.html:81
+msgid "Русский"
+msgstr "Russian"
+
+#: portfolio/templates/portfolio/base.html:27
+#: portfolio/templates/portfolio/index.html:87
+msgid "Чешский"
+msgstr "Czech"
 
 #: portfolio/templates/portfolio/base.html:35
 msgid "Валерия"
@@ -61,6 +76,10 @@ msgstr "EXPERIENCE"
 #: portfolio/templates/portfolio/index.html:34
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
 msgstr "DONETSK NATIONAL MEDICAL UNIVERSITY"
+
+#: portfolio/templates/portfolio/index.html:39
+msgid "Ассистент стоматолога"
+msgstr "Dental assistant"
 
 #: portfolio/templates/portfolio/index.html:41
 msgid "Ведение медицинской документации"
@@ -99,14 +118,16 @@ msgid ""
 "Перевод статьи-исследования на тему \"Сочетанное применение апигеля и "
 "магнитотерапии при местном лечении генерализованного пародантита."
 msgstr ""
-"Translation of an article on the topic \"Combined application of apigel and magnetotherapy in the local treatment of generalized parodontitis.\""
+"Translation of an article on the topic \"Combined application of apigel and "
+"magnetotherapy in the local treatment of generalized parodontitis.\""
 
 #: portfolio/templates/portfolio/index.html:64
 msgid ""
 "Изменение биохимических показателей слюны при эксперементальном пародантите "
 "при применении апипрепарата."
 msgstr ""
-"Changes in biochemical parameters of saliva with experimental parodontite with application of apipreparation"
+"Changes in biochemical parameters of saliva with experimental parodontite "
+"with application of apipreparation"
 
 #: portfolio/templates/portfolio/index.html:70
 msgid "КОНТАКТЫ"
@@ -128,38 +149,51 @@ msgstr "CITY"
 msgid "ЯЗЫКИ"
 msgstr "LANGUAGES"
 
-#: portfolio/templates/portfolio/index.html:90
+#: portfolio/templates/portfolio/index.html:82
+#: portfolio/templates/portfolio/index.html:84
+msgid "Родной"
+msgstr "Native"
+
+#: portfolio/templates/portfolio/index.html:83
+msgid "Украинский"
+msgstr "Ukrainian"
+
+#: portfolio/templates/portfolio/index.html:86
+msgid "Средний"
+msgstr "Intermediate"
+
+#: portfolio/templates/portfolio/index.html:92
 msgid "НАВЫКИ"
 msgstr "SCILLS"
 
-#: portfolio/templates/portfolio/index.html:92
+#: portfolio/templates/portfolio/index.html:94
 msgid "Документооборот"
 msgstr "Document management"
 
-#: portfolio/templates/portfolio/index.html:93
+#: portfolio/templates/portfolio/index.html:95
 msgid "Постановка диагноза"
 msgstr "Diagnostics"
 
-#: portfolio/templates/portfolio/index.html:94
+#: portfolio/templates/portfolio/index.html:96
 msgid "Проф. гигиена"
 msgstr "Dental hygiene"
 
-#: portfolio/templates/portfolio/index.html:95
+#: portfolio/templates/portfolio/index.html:97
 msgid "Лечение кариеса"
 msgstr "Caries treatment"
 
-#: portfolio/templates/portfolio/index.html:99
+#: portfolio/templates/portfolio/index.html:101
 msgid "КУРСЫ"
 msgstr "COURSES"
 
-#: portfolio/templates/portfolio/index.html:101
+#: portfolio/templates/portfolio/index.html:103
 msgid "АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ"
 msgstr "DENTAL ASSOCIATION OF DONETSK"
 
-#: portfolio/templates/portfolio/index.html:102
+#: portfolio/templates/portfolio/index.html:104
 msgid "Пространственная модель размещения виниров."
 msgstr "Spatial model of veneers placement"
 
-#: portfolio/templates/portfolio/index.html:104
+#: portfolio/templates/portfolio/index.html:106
 msgid "Несъемное протезирование (современные тенденции)"
 msgstr "Fixed prosthetics ( current trends)"

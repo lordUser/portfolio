@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-14 10:12+0300\n"
+"POT-Creation-Date: 2017-04-14 12:18+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,15 +20,30 @@ msgstr ""
 
 #: mysite/settings.py:110
 msgid "English"
-msgstr ""
+msgstr "Angličtina"
 
 #: mysite/settings.py:111
 msgid "Russian"
-msgstr ""
+msgstr "Ruština"
 
 #: mysite/settings.py:112
 msgid "Czech"
-msgstr ""
+msgstr "Čeština"
+
+#: portfolio/templates/portfolio/base.html:25
+#: portfolio/templates/portfolio/index.html:85
+msgid "Английский"
+msgstr "Angličtina"
+
+#: portfolio/templates/portfolio/base.html:26
+#: portfolio/templates/portfolio/index.html:81
+msgid "Русский"
+msgstr "Ruština"
+
+#: portfolio/templates/portfolio/base.html:27
+#: portfolio/templates/portfolio/index.html:87
+msgid "Чешский"
+msgstr "Čeština"
 
 #: portfolio/templates/portfolio/base.html:35
 msgid "Валерия"
@@ -62,6 +77,10 @@ msgstr "PRAXE"
 #: portfolio/templates/portfolio/index.html:34
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
 msgstr "DONĚTSKÁ NÁRODNÍ LEKAŘSKÁ UNIVERZITA"
+
+#: portfolio/templates/portfolio/index.html:39
+msgid "Ассистент стоматолога"
+msgstr "Zubní instrumentářka"
 
 #: portfolio/templates/portfolio/index.html:41
 msgid "Ведение медицинской документации"
@@ -98,13 +117,17 @@ msgstr "PŘEKLAD VĚDECKÉHO VÝYKUMU"
 msgid ""
 "Перевод статьи-исследования на тему \"Сочетанное применение апигеля и "
 "магнитотерапии при местном лечении генерализованного пародантита."
-msgstr "Překlad článku ‘Spojené použití apigelu a magnetové terapie za lokalní léčby parodontitidy’"
+msgstr ""
+"Překlad článku ‘Spojené použití apigelu a magnetové terapie za lokalní léčby "
+"parodontitidy’"
 
 #: portfolio/templates/portfolio/index.html:64
 msgid ""
 "Изменение биохимических показателей слюны при эксперементальном пародантите "
 "при применении апипрепарата."
-msgstr "Změna biochemického indexu sliny za experimentalní parodontitidy při užití apipreparátu"
+msgstr ""
+"Změna biochemického indexu sliny za experimentalní parodontitidy při užití "
+"apipreparátu"
 
 #: portfolio/templates/portfolio/index.html:70
 msgid "КОНТАКТЫ"
@@ -126,38 +149,51 @@ msgstr "MĚSTO"
 msgid "ЯЗЫКИ"
 msgstr "JAZYKOVÉ ZNALOSTÍ"
 
-#: portfolio/templates/portfolio/index.html:90
+#: portfolio/templates/portfolio/index.html:82
+#: portfolio/templates/portfolio/index.html:84
+msgid "Родной"
+msgstr "Mateřská"
+
+#: portfolio/templates/portfolio/index.html:83
+msgid "Украинский"
+msgstr "Ukrajinština"
+
+#: portfolio/templates/portfolio/index.html:86
+msgid "Средний"
+msgstr "Pokročilá"
+
+#: portfolio/templates/portfolio/index.html:92
 msgid "НАВЫКИ"
 msgstr "ZRUČNOSTI"
 
-#: portfolio/templates/portfolio/index.html:92
+#: portfolio/templates/portfolio/index.html:94
 msgid "Документооборот"
 msgstr "Tok dokumentů"
 
-#: portfolio/templates/portfolio/index.html:93
+#: portfolio/templates/portfolio/index.html:95
 msgid "Постановка диагноза"
 msgstr "Určení diagnozy"
 
-#: portfolio/templates/portfolio/index.html:94
+#: portfolio/templates/portfolio/index.html:96
 msgid "Проф. гигиена"
 msgstr "Dentalní hzgiena"
 
-#: portfolio/templates/portfolio/index.html:95
+#: portfolio/templates/portfolio/index.html:97
 msgid "Лечение кариеса"
 msgstr "Léčba zubního kazu"
 
-#: portfolio/templates/portfolio/index.html:99
+#: portfolio/templates/portfolio/index.html:101
 msgid "КУРСЫ"
 msgstr "KURZY"
 
-#: portfolio/templates/portfolio/index.html:101
+#: portfolio/templates/portfolio/index.html:103
 msgid "АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ"
 msgstr "ASOCIACE ZUBAŘŮ DONĚTSKÉ OBLASTÍ"
 
-#: portfolio/templates/portfolio/index.html:102
+#: portfolio/templates/portfolio/index.html:104
 msgid "Пространственная модель размещения виниров."
 msgstr "Prostorová model rozmíštění faset"
 
-#: portfolio/templates/portfolio/index.html:104
+#: portfolio/templates/portfolio/index.html:106
 msgid "Несъемное протезирование (современные тенденции)"
 msgstr "Fixní náhrady, moderní tendence"
