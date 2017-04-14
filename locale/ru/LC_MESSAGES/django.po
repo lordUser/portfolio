@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-14 10:12+0300\n"
+"POT-Creation-Date: 2017-04-14 12:18+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,14 +22,29 @@ msgstr ""
 
 #: mysite/settings.py:110
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: mysite/settings.py:111
 msgid "Russian"
-msgstr ""
+msgstr "Русский"
 
 #: mysite/settings.py:112
 msgid "Czech"
+msgstr "Чешский"
+
+#: portfolio/templates/portfolio/base.html:25
+#: portfolio/templates/portfolio/index.html:85
+msgid "Английский"
+msgstr ""
+
+#: portfolio/templates/portfolio/base.html:26
+#: portfolio/templates/portfolio/index.html:81
+msgid "Русский"
+msgstr ""
+
+#: portfolio/templates/portfolio/base.html:27
+#: portfolio/templates/portfolio/index.html:87
+msgid "Чешский"
 msgstr ""
 
 #: portfolio/templates/portfolio/base.html:35
@@ -63,6 +78,10 @@ msgstr ""
 
 #: portfolio/templates/portfolio/index.html:34
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
+msgstr ""
+
+#: portfolio/templates/portfolio/index.html:39
+msgid "Ассистент стоматолога"
 msgstr ""
 
 #: portfolio/templates/portfolio/index.html:41
@@ -128,38 +147,51 @@ msgstr ""
 msgid "ЯЗЫКИ"
 msgstr ""
 
-#: portfolio/templates/portfolio/index.html:90
-msgid "НАВЫКИ"
+#: portfolio/templates/portfolio/index.html:82
+#: portfolio/templates/portfolio/index.html:84
+msgid "Родной"
+msgstr ""
+
+#: portfolio/templates/portfolio/index.html:83
+msgid "Украинский"
+msgstr ""
+
+#: portfolio/templates/portfolio/index.html:86
+msgid "Средний"
 msgstr ""
 
 #: portfolio/templates/portfolio/index.html:92
-msgid "Документооборот"
-msgstr ""
-
-#: portfolio/templates/portfolio/index.html:93
-msgid "Постановка диагноза"
+msgid "НАВЫКИ"
 msgstr ""
 
 #: portfolio/templates/portfolio/index.html:94
-msgid "Проф. гигиена"
+msgid "Документооборот"
 msgstr ""
 
 #: portfolio/templates/portfolio/index.html:95
+msgid "Постановка диагноза"
+msgstr ""
+
+#: portfolio/templates/portfolio/index.html:96
+msgid "Проф. гигиена"
+msgstr ""
+
+#: portfolio/templates/portfolio/index.html:97
 msgid "Лечение кариеса"
 msgstr ""
 
-#: portfolio/templates/portfolio/index.html:99
+#: portfolio/templates/portfolio/index.html:101
 msgid "КУРСЫ"
 msgstr ""
 
-#: portfolio/templates/portfolio/index.html:101
+#: portfolio/templates/portfolio/index.html:103
 msgid "АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ"
 msgstr ""
 
-#: portfolio/templates/portfolio/index.html:102
+#: portfolio/templates/portfolio/index.html:104
 msgid "Пространственная модель размещения виниров."
 msgstr ""
 
-#: portfolio/templates/portfolio/index.html:104
+#: portfolio/templates/portfolio/index.html:106
 msgid "Несъемное протезирование (современные тенденции)"
 msgstr ""

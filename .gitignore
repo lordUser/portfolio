@@ -3,5 +3,4 @@ __pycache__
 myvenv
 *.pdf
 Arthur_Andrey/
-.gitignore*
-*.sqlite3
+db.sqlite3

@@ -36,7 +36,7 @@
                   </tr>
                   <tr class="padding-td">
                     <td>
-                      <p>Ассистент стоматолога.</p>
+                      <p>{% trans 'Ассистент стоматолога' %}.</p>
                       <ul>
                         <li>{% trans 'Ведение медицинской документации' %}</li>
                         <li>{% trans 'Проведение профессиональной гигиены полости рта' %}</li>
@@ -78,13 +78,13 @@
           <div class="languages">
             <h2>{% trans 'ЯЗЫКИ' %}</h2>
             <ul>
-              <li class="plus bold">Russian {% include 'portfolio/rating_bars.html' %}</li>
-              <li class="padding">Родной</li>
-              <li class="plus bold">Ukrainian {% include 'portfolio/rating_bars.html' %}</li>
-              <li class="padding">Родной</li>
-              <li class="lang-eng plus bold">English {% include 'portfolio/rating_bars.html' %}</li>
-              <li class="padding">Средний</li>
-              <li class="lang-cz plus bold">Czech {% include 'portfolio/rating_bars.html' %}</li>
+              <li class="plus bold">{%trans 'Русский' %} {% include 'portfolio/rating_bars.html' %}</li>
+              <li class="padding">{% trans 'Родной' %}</li>
+              <li class="plus bold">{% trans 'Украинский' %} {% include 'portfolio/rating_bars.html' %}</li>
+              <li class="padding">{% trans 'Родной' %}</li>
+              <li class="lang-eng plus bold">{% trans 'Английский' %} {% include 'portfolio/rating_bars.html' %}</li>
+              <li class="padding">{% trans 'Средний' %}</li>
+              <li class="lang-cz plus bold">{% trans 'Чешский' %} {% include 'portfolio/rating_bars.html' %}</li>
               <li class="padding">B2</li>
             </ul>
           </div>
