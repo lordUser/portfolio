@@ -218,6 +218,12 @@ li.plus:before {
   padding-left: 17px;
 }
 
+select.form-group {
+  background-color: #775ba3;
+  border-color: transparent;
+  color: white;
+}
+
 .experience li {
   padding-bottom: 10px;
 }

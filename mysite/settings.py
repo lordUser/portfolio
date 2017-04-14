@@ -28,7 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['sapega89.pythonanywhere.com', 'localhost']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -110,7 +109,7 @@ LANGUAGE_CODE = 'ru'
 LANGUAGES = [
     ('en', _('English')),
     ('ru', _('Russian')),
-    ('cz', _('Czech'))
+    ('cs', _('Czech'))
 ]
 
 DEFAULT_LANGUAGE = 1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-14 10:14+0300\n"
+"POT-Creation-Date: 2017-04-14 10:12+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: mysite/settings.py:110
 msgid "English"
@@ -39,82 +40,79 @@ msgstr "Martyn"
 
 #: portfolio/templates/portfolio/index.html:6
 msgid "ОБРАЗОВАНИЕ"
-msgstr "EDUCATION"
+msgstr "VZDĚLANÍ"
 
 #: portfolio/templates/portfolio/index.html:11
 msgid "ДНЕПРОПЕТРОВСКАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ"
-msgstr "DNEPROPETROVSK MEDICAL ACADEMY"
+msgstr "DNEPROPETROVSK LÉKAŘSKÁ AKADEMIE"
 
 #: portfolio/templates/portfolio/index.html:15
 #: portfolio/templates/portfolio/index.html:22
 msgid "Специалист. Стоматологический. Стоматология"
-msgstr "Specialist. Dentistry"
+msgstr "Zubní instrumentářka"
 
 #: portfolio/templates/portfolio/index.html:18
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. ГОРЬКОГО"
-msgstr "DONETSK NATIONAL MEDICAL UNIVERSITY"
+msgstr "DONĚTSKÁ NÁRODNÍ LEKAŘSKÁ UNIVERZITA"
 
 #: portfolio/templates/portfolio/index.html:29
 msgid "ОПЫТ РАБОТЫ"
-msgstr "EXPERIENCE"
+msgstr "PRAXE"
 
 #: portfolio/templates/portfolio/index.html:34
 msgid "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ МЕД. УНИВЕРСИТЕТ"
-msgstr "DONETSK NATIONAL MEDICAL UNIVERSITY"
+msgstr "DONĚTSKÁ NÁRODNÍ LEKAŘSKÁ UNIVERZITA"
 
 #: portfolio/templates/portfolio/index.html:41
 msgid "Ведение медицинской документации"
-msgstr "Maintenance of medical records"
+msgstr "Vedení evidence pacientů, jejich lekařské dokumentace"
 
 #: portfolio/templates/portfolio/index.html:42
 msgid "Проведение профессиональной гигиены полости рта"
-msgstr "Professional oral hygiene "
+msgstr "Prevence a dentalní hygiena"
 
 #: portfolio/templates/portfolio/index.html:43
 msgid "Ассистирование проведения стоматологических манипуляций"
-msgstr "Assisting of providing dental manipulations"
+msgstr "Asistovala zubnímu lékaři"
 
 #: portfolio/templates/portfolio/index.html:52
 msgid "НАУЧНАЯ РАБОТА"
-msgstr "SCIENTIFIC WORK"
+msgstr "VĚDECKÁ ČINNOST"
 
 #: portfolio/templates/portfolio/index.html:54
 msgid "СБОР СТАТИСТИКИ"
-msgstr "COLLECTION OF STATISTICS"
+msgstr "STATISTICKÁ ANALÝZA"
 
 #: portfolio/templates/portfolio/index.html:55
 msgid ""
 "Занималась сбором и обработкой данных для докторской диссертации Елены "
 "Борисовны Булиенко."
-msgstr ""
-"Collection and data processing for Helen’s Bulienko doctoral dissertation"
+msgstr "Prováděla zpracování dat pro disertační práce Heleny Bulijenko"
 
 #: portfolio/templates/portfolio/index.html:59
 #: portfolio/templates/portfolio/index.html:63
 msgid "ПЕРЕВОД ИССЛЕДОВАНИЯ НА АНГЛИЙСКИЙ ЯЗЫК"
-msgstr "TRANSLATION OF THE RESERCHES IN ENGLISH"
+msgstr "PŘEKLAD VĚDECKÉHO VÝYKUMU"
 
 #: portfolio/templates/portfolio/index.html:60
 msgid ""
 "Перевод статьи-исследования на тему \"Сочетанное применение апигеля и "
 "магнитотерапии при местном лечении генерализованного пародантита."
-msgstr ""
-"Translation of an article on the topic \"Combined application of apigel and magnetotherapy in the local treatment of generalized parodontitis.\""
+msgstr "Překlad článku ‘Spojené použití apigelu a magnetové terapie za lokalní léčby parodontitidy’"
 
 #: portfolio/templates/portfolio/index.html:64
 msgid ""
 "Изменение биохимических показателей слюны при эксперементальном пародантите "
 "при применении апипрепарата."
-msgstr ""
-"Changes in biochemical parameters of saliva with experimental parodontite with application of apipreparation"
+msgstr "Změna biochemického indexu sliny za experimentalní parodontitidy při užití apipreparátu"
 
 #: portfolio/templates/portfolio/index.html:70
 msgid "КОНТАКТЫ"
-msgstr "CONTACTS"
+msgstr "KONTAKTNÍ INFORMACE"
 
 #: portfolio/templates/portfolio/index.html:72
 msgid "ТЕЛЕФОН"
-msgstr "PHONE"
+msgstr "TEL Č"
 
 #: portfolio/templates/portfolio/index.html:73
 msgid "E-MAIL"
@@ -122,44 +120,44 @@ msgstr "E-MAIL"
 
 #: portfolio/templates/portfolio/index.html:74
 msgid "ГОРОД"
-msgstr "CITY"
+msgstr "MĚSTO"
 
 #: portfolio/templates/portfolio/index.html:79
 msgid "ЯЗЫКИ"
-msgstr "LANGUAGES"
+msgstr "JAZYKOVÉ ZNALOSTÍ"
 
 #: portfolio/templates/portfolio/index.html:90
 msgid "НАВЫКИ"
-msgstr "SCILLS"
+msgstr "ZRUČNOSTI"
 
 #: portfolio/templates/portfolio/index.html:92
 msgid "Документооборот"
-msgstr "Document management"
+msgstr "Tok dokumentů"
 
 #: portfolio/templates/portfolio/index.html:93
 msgid "Постановка диагноза"
-msgstr "Diagnostics"
+msgstr "Určení diagnozy"
 
 #: portfolio/templates/portfolio/index.html:94
 msgid "Проф. гигиена"
-msgstr "Dental hygiene"
+msgstr "Dentalní hzgiena"
 
 #: portfolio/templates/portfolio/index.html:95
 msgid "Лечение кариеса"
-msgstr "Caries treatment"
+msgstr "Léčba zubního kazu"
 
 #: portfolio/templates/portfolio/index.html:99
 msgid "КУРСЫ"
-msgstr "COURSES"
+msgstr "KURZY"
 
 #: portfolio/templates/portfolio/index.html:101
 msgid "АССОЦИАЦИЯ СТОМАТОЛОГОВ ДОНЕЦКОЙ ОБЛАСТИ"
-msgstr "DENTAL ASSOCIATION OF DONETSK"
+msgstr "ASOCIACE ZUBAŘŮ DONĚTSKÉ OBLASTÍ"
 
 #: portfolio/templates/portfolio/index.html:102
 msgid "Пространственная модель размещения виниров."
-msgstr "Spatial model of veneers placement"
+msgstr "Prostorová model rozmíštění faset"
 
 #: portfolio/templates/portfolio/index.html:104
 msgid "Несъемное протезирование (современные тенденции)"
-msgstr "Fixed prosthetics ( current trends)"
+msgstr "Fixní náhrady, moderní tendence"

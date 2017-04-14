@@ -1,7 +1,7 @@
 {% extends "portfolio/base.html" %}
 {% load i18n %}
 {% block content %}
-        <div class="wide col-sm-12 col-md-9">
+        <div class="wide col-sm-12 col-md-8 col-lg-9">
           <div class="education">
             <h2>{% trans 'ОБРАЗОВАНИЕ' %}</h2>
             <div>
@@ -52,8 +52,7 @@
             <h2>{% trans 'НАУЧНАЯ РАБОТА' %}</h2>
             <div>
               <p class="bold">{% trans 'СБОР СТАТИСТИКИ' %}</p>
-              <p class="padding">{% blocktrans %}Занималась сбором и обработкой данных для докторской диссертации Елены Борисовны Булиенко.
-              {% endblocktrans %}
+              <p class="padding">{% blocktrans %}Занималась сбором и обработкой данных для докторской диссертации Елены Борисовны Булиенко.{% endblocktrans %}
               </p>
             </div>
             <div>
@@ -66,7 +65,7 @@
             </div>
           </div>
         </div>
-        <div class="side col-sm-12 col-md-3">
+        <div class="side col-sm-12 col-md-4 col-lg-3">
           <div class="contacts">
             <h2>{% trans 'КОНТАКТЫ' %}</h2>
             <ul>
@@ -80,11 +79,13 @@
             <h2>{% trans 'ЯЗЫКИ' %}</h2>
             <ul>
               <li class="plus bold">Russian {% include 'portfolio/rating_bars.html' %}</li>
-              <li class="padding">Native</li>
+              <li class="padding">Родной</li>
               <li class="plus bold">Ukrainian {% include 'portfolio/rating_bars.html' %}</li>
-              <li class="padding">Native</li>
-              <li class="lang-eng padding plus bold">English {% include 'portfolio/rating_bars.html' %}</li>
-              <li class="lang-cz padding plus bold">Чешский {% include 'portfolio/rating_bars.html' %}</li>
+              <li class="padding">Родной</li>
+              <li class="lang-eng plus bold">English {% include 'portfolio/rating_bars.html' %}</li>
+              <li class="padding">Средний</li>
+              <li class="lang-cz plus bold">Czech {% include 'portfolio/rating_bars.html' %}</li>
+              <li class="padding">B2</li>
             </ul>
           </div>
           <div class="skills">
